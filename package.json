@@ -1,0 +1,22 @@
+{
+  "name": "bkp-files",
+  "version": "1.0.0",
+  "description": "Sistema de backup de arquivos via SFTP",
+  "main": "backup.js",
+  "scripts": {
+    "start": "node backup.js",
+    "backup": "node backup.js"
+  },
+  "keywords": [
+    "backup",
+    "sftp",
+    "files"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ssh2-sftp-client": "^9.1.0",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7"
+  }
+}

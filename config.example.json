@@ -1,0 +1,23 @@
+{
+  "origem": {
+    "host": "seu-servidor.com.br",
+    "user": "seu-usuario",
+    "password": "sua-senha",
+    "type": "sftp",
+    "paths": [
+      "/var/www/exemplo/producao/api/public/files",
+      "/var/www/exemplo/producao/api/public/images",
+      "/var/www/exemplo/producao/api/public/icons"
+    ]
+  },
+  "destino": {
+    "pasta_local": "./backup",
+    "manter_estrutura": true
+  },
+  "opcoes": {
+    "timeout": 30000,
+    "retryAttempts": 3,
+    "retryDelay": 1000
+  }
+}
+
